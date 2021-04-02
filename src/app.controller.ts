@@ -11,7 +11,6 @@ export class AppController {
     ): Promise<String> {
     console.log("data", data);
     console.log("request", req.user.email)
-    console.log("Just removing for the sake of simplicity!");
     return "Routes are authorinzed"
   }
 }
